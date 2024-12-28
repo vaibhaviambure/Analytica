@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl-carousel-link -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- swiper-link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- aos-link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css-link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Analytica</title>
+</head>
+
+<body>
+    <header class="dark-bg p-2  d-lg-flex d-none">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="top-info">
+                        <small class="me-3 text-white"><i class="bi bi-geo-alt text-light me-2 "></i>123 Street, New
+                            York, USA</small>
+                        <small class="me-3 text-white"><i class="bi bi-telephone-fill me-2"></i>+012 345 6789</small>
+                        <small class="me-3 text-white"><i
+                                class="bi bi-envelope-open-fill  me-2"></i>info@example.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="social-links float-end d-flex gap-1">
+
+                        <a href="#" aria-label="type-here"><i
+                                class="bi bi-twitter text-white border p-2 rounded-circle"></i></a>
+                        <a href="#" aria-label="type-here"><i
+                                class="bi bi-facebook text-white border p-2 rounded-circle"></i></a>
+                        <a href="#" aria-label="type-here"><i
+                                class="bi bi-linkedin text-white border p-2 rounded-circle"></i></a>
+                        <a href="#" aria-label="type-here"><i
+                                class="bi bi-instagram text-white border p-2 rounded-circle"></i></a>
+                        <a href="#" aria-label="type-here"><i
+                                class="bi bi-youtube text-white border p-2 rounded-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold mt-2" href="#"><img src="images/logo2.png" alt="logo" width="75"></a>
+            <button class="navbar-toggler text-warning" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fa-solid fa-bars"></i> </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Analytica<span class="text-danger">.</span>
+                    </h3>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active dark" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="about.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link dropbtn text-dark">Categories<i
+                                        class="fa-solid fa-angle-down ms-2"></i></a>
+                                <div class="dropdown-content category">
+                                    <div class="d-flex cata-block">
+                                        <div class="nav-border">
+                                            <a href="aerospace.html">Aerospace and defence</a>
+                                            <a href="chemicals.html">Chemicals and advanced materials
+                                            </a>
+
+                                            <a href="energy.html">Energy, power and mining</a>
+
+                                            <a href="information.html">Information and communications technology</a>
+
+                                            <a href="pharma.html">Pharmaceuticals</a>
+
+                                            <a href="healthcare.html">Healthcare</a>
+                                        </div>
+                                        <div class=" category-left nav-border ">
+                                            <a href="automotive.html">Automotive and transportation</a>
+
+                                            <a href="construction.html">Construction and hvac</a>
+
+                                            <a href="electronics.html">Electronics and semiconductor</a>
+
+                                            <a href="food.html">Food, nutrition and animal feed</a>
+
+                                            <a href="medical.html">Medical devices</a>
+
+                                            <a href="packaging.html">Packaging</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link dropbtn text-dark">Research
+                                    Solutions <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="dropdown-content Research">
+                                    <div class="d-flex cata-block">
+                                        <div class="nav-border">
+                                            <a href="contact.html">Company Profile</a>
+
+                                            <a href="customR.html">Custom Research</a>
+                                        </div>
+                                        <div class="category-left nav-border">
+                                            <a href="industryR.html">Industry Reports</a>
+                                            <a href="consultancy.html">Consultancy Services</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link dropbtn text-dark">Resources <i
+                                        class="fa-solid fa-angle-down"></i></a>
+                                <div class="dropdown-content nav-border">
+                                    <a href="blog.html">Blog</a>
+
+                                    <a href="blog-details.html">Press Release</a>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <div class="nav-item">
+                            <div class="spectacledcoder-search-bar d-flex align-items-center justify-content-start"
+                                id="searchbar">
+                                <input id="searchbarinput" class="spectacledcoder-search-bar-input" type="text"
+                                    name="search" id="searchval" placeholder="Type something" />
+                                <i class="bi bi-search dark ms-3 dark" id="searchicon"></i>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- breadcrumbs section start -->
+    <section class="banner-section">
+        <div class="banner-overlay text-center d-flex align-items-center justify-content-center">
+            <div class="text-content text-light mt-2">
+                <h3 class="text-white">Press Release</h3>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center mt-3">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-light"><i
+                                    class="bi bi-house-door-fill dark"></i> Home</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="blog-details.html"
+                                class=" text-light">Press Release</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Laravel Testing PR Upload
+
+                        </li>
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <h5 class="lh-lg">Laravel Testing PR Upload </h5>
+                    <div class="about-para">
+                        <h6 class="fw-bold lh-lg">Market Analysis:</h6>
+                        <p>The global infrared imaging market forecast will be $7.85 billion by 2026, increasing from
+                            $4.51 billion in 2018 at a healthy CAGR of 6.05%. North America market share is growing at a
+                            CAGR of 4.5% by generating revenue of $3.54 billion by 2026. Asia-Pacific regional growth is
+                            expecting $1.64 billion by 2026.</p><br>
+                        <p>Infrared (IR) imaging refers to the technology which is used for capturing invisible IR
+                            radiation and changing it into visible images. It is also referred as thermography, it needs
+                            specialized devices which detect the invisible IR radiation emitted by warm objects and turn
+                            the signals to an image. </p>
+                        <h6 class="fw-bold mt-3">Access to Full Report Summary: </h6>
+                        <a href="https://marketreportslibrary.com/report/ic0072/infrared-imaging-market">
+                            https://marketreportslibrary.com/report/<br>ic0072/infrared-imaging-market</a>
+                        <h6 class="fw-bold mt-3">Market Drivers:</h6>
+                        <i>Significant deployment of infrared imaging products in security & surveillance
+                            application</i>
+                        <p class="mt-2">Infrared cameras has significant adoption in the security & surveillance
+                            application owing to
+                            their ability to be used in severe environments, such as haze, fog, smoke and water vapor.
+                            They are specifically suited to the military and defense vertical, where they are used for
+                            human/object movement monitoring; and chemical, biological, radiological and nuclear defense
+                            (CBRNE) detection. Companies operating in the infrared imaging market have received a
+                            numerous contracts for the improvement or supply of infrared products for the military and
+                            defense vertical. Infrared cameras are also highly used for security & surveillance purposes
+                            in industrial and commercial buildings.</p>
+                        <h6 class="fw-bold mt-3">Market Restraints:</h6>
+                        <p>The few factors restraining the market growth are the cost of infrared cameras is high
+                            compared to other. Furthermore, the availability of alternative technologies in the market
+                            hinders the extensive adoption of these cameras.</p>
+                        <h6 class="fw-bold mt-3">Request for a sample report: </h6>
+                        <a href="https://marketreportslibrary.com/request/sample/ic0072/infrared-imaging-market">
+                            https://marketreportslibrary.com/request/<br>sample/ic0072/
+                            infrared-imaging-market</a>
+                        <h5 class="fw-bold mt-3">The Global Infrared Imaging Market has been segmented as below:</h5>
+                        <h6 class="fw-bold mt-3">By Technology</h6>
+                        <ul class="ms-5">
+                            <li>Cooled Infrared Imaging</li>
+                            <li>Uncooled Infrared Imaging</li>
+
+                        </ul>
+                        <h6 class="fw-bold mt-3">By Wavelength</h6>
+                        <ul class="ms-5">
+                            <li>Far-Infrared</li>
+                            <li>Long-Wave Infrared</li>
+                            <li>Mid-Wave Infrared</li>
+                            <li>Near-Infrared</li>
+                            <li>Short-Wave Infrared</li>
+
+
+                        </ul>
+                        <h6 class="fw-bold mt-3">By Application</h6>
+                        <ul class="ms-5">
+                            <li>Security & Surveillance</li>Detection
+                            <li>Monitoring & Inspection</li>
+                            <li>Detection</li>
+
+
+                        </ul>
+                        <h6 class="fw-bold mt-3">By Region</h6>
+                        <ul class="ms-5">
+                            <li>Europe</li>
+                            <li>North America</li>
+                            <li>Asia Pacific</li>
+                            <li>Rest of The World</li>
+                        </ul>
+                        <h6 class="fw-bold mt-3">By Company</h6>
+                        <ul class="ms-5">
+                            <li>Flir Systems</li>
+                            <li>Fluke</li>
+                            <li>Sensors Unlimited</li>
+                            <li>Leonardo</li>
+                            <li>Axis Communications</li>
+                            <li>Xenics</li>
+                            <li>Opgal Optronic Industries</li>
+                            <li>New Imaging Technologies</li>
+                            <li>Allied Vision Technologies</li>
+                            <li>Sofradir</li>
+                            <li>Cox</li>
+                            <li>C-Thermal</li>
+                            <li>Ircameras</li>
+                            <li>Princeton Infrared Technologies</li>
+                            <li>Dali Technology</li>
+                            <li>Tonbo Imaging</li>
+                            <li>L3 Technologies</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="container">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <ul class="list-group">
+                                        <li class="list-group-item blog-title dark-bg text-light py-3">Latest Press Release
+                                        </li>
+                                        <li class="list-group-item blog-title py-3"><a href="infraredB.html" class="text-dark">Infrared Imaging Market</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="health.html" class="text-dark">Healthcare Cloud Computing Market</a>
+                                        </li>
+                                        <li class="list-group-item blog-title py-3"><a href="digital.html" class="text-dark">Digital Printing Packaging Market</a>
+                                        </li>
+                                        <li class="list-group-item blog-title py-3"><a href="assets.html" class="text-dark">Digital Asset Management Market</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="Defibrillators.html" class="text-dark">Defibrillators Market</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="Almond.html"
+                                            class="text-dark">Almond Oil Market</a></li>
+                                    </ul>
+                                </div>
+                                <div class="carousel-item">
+                                    <ul class="list-group">
+                                        <li class="list-group-item blog-title dark-bg text-light py-3">Latest Press Release
+                                        </li>
+                                        <li class="list-group-item blog-title py-3"><a href="laravel.html" class="text-dark">Laravel Testing PR Upload</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="cleaning.html" class="text-dark">Cleaning Robot Market</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="Biosimilars.html" class="text-dark">Biosimilars Market</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="Biosimilars.html" class="text-dark">Biosimilars Market</a></li>
+                                        <li class="list-group-item blog-title py-3"><a href="battery.html" class="text-dark">Battery Energy Storage System Market</a>
+                                            <li class="list-group-item blog-title py-3"><a href="Mechanical.html" class="text-dark">Mechanical ventilators Market</a></li>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- footer section start -->
+ <footer class="dark-bg py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h4 class="text-white fw-bold">Analytica<span class="text-danger">.</span>
+                    </h4>
+                    <p class="text-light mt-4">Let's Work together,Looking forward to<br> speaking to you!</p>
+                    <h3 class="text-white mt-3">Phone No :</h3>
+                    <span class="text-light">+91 8956357819</span>
+                    <h3 class="text-white mt-3">Email :</h3>
+                    <span class="text-light">marketport@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box mt-2">
+                    <h2 class="dark">Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ's</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="Sitemap.html">Sitemap</a></li>
+                        <li><a href="#">XML</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box mt-2">
+                    <h2 class="dark">Categories</h2>
+                    <ul>
+                        <li><a href="aerospace.html">Aerospace and Defence</a></li>
+                        <li><a href="automotive.html">Automotive and Transportation</a></li>
+                        <li><a href="chemicals.html">Chemicals and Advanced Materials</a></li>
+                        <li><a href="construction.html">Construction and HVAC</a></li>
+                        <li><a href="electronics.html">Electronics and Semiconductor</a></li>
+                        <li><a href="food.html">Food, Nutrition and Animal Feed</a></li>
+                        <li><a href="information.html">Information and Communications Technology</a></li>
+                        <li><a href="medical.html">Medical Devices</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box mt-5">
+                    <ul>
+                        <li><a href="packaging.html">Packaging</a></li>
+                        <li><a href="pharma.html">Pharmaceuticals</a></li>
+                        <li><a href="healthcare.html">Healthcare</a></li>
+                    </ul>
+                    <div class="input-group py-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="bi bi-arrow-right"></i></span>
+                    </div>
+                    <h5 class="text-white">Follow us on</h5>
+                    <p class="socials text-white">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-dribbble"></i>
+                        <i class="bi bi-pinterest"></i>
+                        <i class="bi bi-twitter"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Copyright Start -->
+<div class="container-fluid py-4 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 Copy-right text-center text-md-start mb-3 mb-md-0 text-light">
+                Copyright © 2024. All rights reserved
+            </div>
+            <div class="col-md-6 text-center text-md-end text-light Copy-right">
+                Designed & Developed By <a href="https://vertextechnosys.com/" class="dark">Vertex
+                    Technosys</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+<!-- Footer End -->
+
+<!-- script-links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
